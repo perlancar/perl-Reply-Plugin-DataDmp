@@ -22,7 +22,7 @@ sub new {
 sub mangle_result {
     my $self = shift;
     my (@result) = @_;
-    return @result ? dump(@result) : ();
+    return @result ? dmp(@result) : ();
 }
 
 1;
